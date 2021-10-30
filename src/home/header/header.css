@@ -1,0 +1,28 @@
+.heading{
+    width: 100%;
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+     top: 0;
+     background: rgba(225, 225, 224, 0.7);
+}
+.logo{
+    color:white;
+    font-size: 2rem; 
+    font-weight: 800; 
+    
+}
+.navbar_container{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 70%;
+}
+ 
+.nav_link{
+    color: white;
+}

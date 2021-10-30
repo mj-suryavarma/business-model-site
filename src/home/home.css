@@ -1,0 +1,15 @@
+.home_page{
+    width: 100%;
+    height: 700px;
+    background-image:url('../businessmeeting.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home_page::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    background: rgba(0, 12, 34, 0.8);
+}
