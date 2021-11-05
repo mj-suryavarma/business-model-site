@@ -7,9 +7,9 @@
 }
 .home_page::before{
     content: "";
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     height: 700px;
-    background: rgba(0, 12, 34, 0.8);
+    background: rgba(0, 9, 31, 0.8);
 }

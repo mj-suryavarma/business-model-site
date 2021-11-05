@@ -1,0 +1,89 @@
+ @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto:wght@700&family=Source+Code+Pro:wght@600&family=Source+Sans+Pro:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Reggae+One&family=Roboto:wght@700&family=Source+Code+Pro:wght@600&family=Source+Sans+Pro:wght@600&display=swap'); 
+.about_us{
+    padding: 0px 50px;
+}
+
+ .skill_icons{
+     width: 100%;
+     padding: 50px 0; 
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     font-size: 2.5rem;
+     color: #b9b8b8;
+     font-style:oblique;
+     transform: skew(-6deg);
+    } 
+    .feature_declare{
+       max-width:500px;
+        padding: 30px 20px;
+        font-family: 'Chelsea Market','Roboto', 'sans-serif'; 
+
+    }
+    .service_feature{
+        margin: 100px  0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    } 
+    
+    .device_icons_container{
+        max-width: 400px;
+        font-size: 5rem;
+        margin:20px;
+        padding: 30px 20px;
+        text-align: center;
+
+    }
+    .device_icon_mobile{
+        font-size: 4.5rem; 
+    }
+    .device_icon_tablet{
+        font-size: 5.8rem; 
+    }
+    .device_icon_desktop{
+        font-size: 7.5rem; 
+    }
+#READMORE{
+    background-color:#b7bed4;
+    color: #021342;
+    font-weight: 800;
+}
+    .device_icon{
+        margin: 10px;
+        color: rgba(9, 4, 66, 0.555);        
+    }
+
+    .customer_experience{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .customer_happy_image{
+         max-width: 500px;
+         min-width: 200px;
+
+    }
+    .customer_satisfaction{
+        max-width: 400px;
+        min-width: 100px;
+        font-family: 'Chelsea Market','Roboto', 'sans-serif'; 
+         
+    }
+    
+
+  @media screen and (max-width:800px){
+
+    .service_feature{
+        flex-direction: column-reverse;
+
+    }
+
+  } 
+  @media screen and (max-width:600px) {
+      .customer_happy_image{
+          display: none;
+      }
+  }

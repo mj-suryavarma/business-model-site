@@ -16,13 +16,14 @@ html{
 }
 
 ::-webkit-scrollbar{
-  width: 14px;
+  width: 12px;
   color: #231f23;
 }
  ::-webkit-scrollbar-track{
-   background: #231f58;
+   background-color: rgb(88, 84, 97);
   }
   ::-webkit-scrollbar-thumb{
-   background-color: rgb(88, 84, 97);
+    background: #020f42;
+    border-radius: 20px;
 
  }
